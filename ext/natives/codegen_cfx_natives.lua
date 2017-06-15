@@ -224,8 +224,7 @@ native 'REGISTER_NUI_CALLBACK_TYPE'
 
 native 'SET_NUI_FOCUS'
 	arguments {
-		BOOL 'hasFocus',
-		BOOL 'hasCursor'
+		BOOL 'hasFocus'
 	}
 	apiset 'client'
 	returns 'void'
